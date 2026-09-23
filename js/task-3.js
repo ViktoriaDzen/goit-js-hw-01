@@ -9,7 +9,7 @@
 // Значення параметрів — числа, цілі або дробові. Функція повертає число — загальну ширину елемента за формулою:
 
 function getElementWidth(content, padding, border) {
-  return (totalWidth = content + padding * 2 + border * 2);
+  return content + padding * 2 + border * 2;
 }
 
 console.log(getElementWidth(50, 8, 4)); // 74
